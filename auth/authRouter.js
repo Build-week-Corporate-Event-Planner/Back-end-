@@ -3,7 +3,7 @@ const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 const userDb = require('./authModel')
 const authenticate = require('../auth/authenticate-middleware')
-const restricted = require('../auth/authenticate-middleware');
+//const restricted = require('../auth/authenticate-middleware');
 require('dotenv').config();
 const router = express.Router();
 
